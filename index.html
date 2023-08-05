@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="head">
+     <nav>
+        <img src="./image.png" alt="ayush_picture" class="photo" height="100px">
+        <ul>
+           <li> <a href="#">Home</a></li>
+           <li><a href="#">project</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="Contact ME.html">Contact me</a></li>
+        </ul>
+     </nav>
+    <div class="details">
+        <h1>I'm <span>Ayush</span>kumar</h1>
+        <p>This is my official portfolio website to show all 
+           <br> Details and work experience in Web Development <br>
+           <span id="element"></span>
+        </p>
+        
+        <a href="My resume.html">Download CV</a>
+        <div class="images">
+            <img src="./ayush.jpg" alt="image" class="shape" >
+            <img src=""  class="boy" alt="">
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Devloper', 'Graphic Designer','Web Designer'],
+          typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
